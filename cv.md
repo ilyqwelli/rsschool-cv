@@ -17,7 +17,12 @@ I am 23 years old and I work as an information security specialist. I think I do
 
 -----------------------
 ## Education
+__Russian State University for the Humanities__
+  * Information Security
 -----------------------
 ## Experience
+I have some experience in HTML and CSS layout, so there are no project works.
 -----------------------
 ## Languages
+* Russian - native speaker.
+* English - A2.
