@@ -11,10 +11,20 @@ I am 23 years old and I work as an information security specialist. I think I do
 ## Skills
 * HTML
 * CSS
+* Java Skript (basic)
 * Figma
 -----------------------
 ## Code example
-
+Complete the solution so that it reverses the string passed into it.
+'world'  =>  'dlrow'
+'word'   =>  'drow'
+```
+function solution(str){
+  return str.split('').reverse().join('');
+  console.log(solution("world"));
+  console.log(solution("word"));
+}
+```
 -----------------------
 ## Education
 __Russian State University for the Humanities__
