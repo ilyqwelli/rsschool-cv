@@ -25,9 +25,15 @@ a {
     color: inherit;
 }
 
+.container {
+    max-width: 1200px;    
+    margin: 0 auto;         
+    padding: 0 20px;
+}
+
 header {
     background-color: #FFFFFF;
-    padding: 50px;
+    padding: 30px;
     text-align: center;
 }
 
@@ -44,4 +50,26 @@ header {
 
 .nav-list a:hover {
     color: #a5c9cf;
+}
+
+footer {
+    background-color: #FFFFFF;;
+    padding: 30px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.contact {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+}
+.rs-logo {
+    height: 40px;
 }
