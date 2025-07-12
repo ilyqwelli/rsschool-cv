@@ -98,7 +98,7 @@ main{
     padding: 20px;
 }
 
-.photo {
+main .photo {
     width: 200px;
     height: 200px;
 
