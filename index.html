@@ -26,65 +26,68 @@
 
     <main>
         <div class="container">
+            
+            <div class="row">
+                <section class="left">
+                    <h1>Anna Volkova</h1>
+                    <p class="job-title">Frontend Intern</p>
+                </section>
+            </div>
 
-            <section class="left">
-                <h1>Anna Volkova</h1>
-                <p class="job-title">Frontend Intern</p>
+            <div class="row">
+                <section class="left">
+                    <img src="images/9850a52ef9c04ba9cc47294db6e5bea2.jpg" alt="Photo Anna Volkova" class="photo">
+                </section>
+                <section class="right" id="about">
+                    <h2>About</h2>
+                    <p>I am 23 years old and I work as an information security specialist. I think I don’t want to work in this field all my life, so I decided to try something new at rs shcool. I hope this course will give me a lot of new knowledge.</p>
+                </section>
+            </div>
 
-                <img src="images/9850a52ef9c04ba9cc47294db6e5bea2.jpg" alt="Photo Anna Volkova" class="photo">
-                
-                <section id="education">
+            <div class="row">
+                <section class="left" id="education">
                     <h2>Education</h2>
                     <p>Russian State University for the Humanities (Information Security)</p>
                 </section>
+                <section class="right" id="experience">
+                    <h2>Experience</h2>
+                    <p>I have some experience in HTML and CSS layout, so there are no project works.</p>
+                </section>
+            </div>
 
-                <section id="skills">
+            <div class="row">
+                <section class="left" id="skills">
                     <h2>Skills</h2>
                     <ul class="skills-list">
                         <li>HTML</li>
                         <li>CSS</li>
-                        <li>Java Script (basic)</li>
+                        <li>JavaScript (basic)</li>
                         <li>Figma</li>
-                    </ul>
+                        </ul>
                 </section>
-
-                <section id="languages">
+                <section class="right" id="code">
+                    <h2>Code example</h2>
+                    <pre>
+                        <code>
+function solution(str){
+  return str.split('').reverse().join('');
+  console.log(solution("world"));
+  console.log(solution("word"));
+}
+                        </code>
+                    </pre>
+                </section>
+            </div>
+            
+            <div class="row">
+                <section class="left" id="languages">
                     <h2>Languages</h2>
                     <ul class="languages-list">
                         <li>Russian - native speaker</li>
                         <li>English - A2S</li>
                     </ul>
                 </section>
-
-            </section>
-
-            <section class="right">
-
-                <section id="about">
-                    <h2>About</h2>
-                    <p>I am 23 years old and I work as an information security specialist. I think I don’t want to work in this field all my life, so I decided to try something new at rs shcool. I hope this course will give me a lot of new knowledge</p>
-                </section>
-
-                <section id="experience">
-                    <h2>Experience</h2>
-                    <p>I have some experience in HTML and CSS layout, so there are no project works.</p>
-                </section>
-
-                <section id="code">
-                    <h2>Code example</h2>
-                    <p>Complete the solution so that it reverses the string passed into it. ‘world’ => ‘dlrow’ ‘word’ => ‘drow’</p>
-                    <pre>
-                        <code class="code">
-function solution(str){
-  return str.split('').reverse().join('');
-  console.log(solution("world"));
-  console.log(solution("word"));
-}
-</code>
-                    </pre>
-                </section>
-                
-            </section>
+            </div>
         </div>
     </main>
 
