@@ -32,7 +32,9 @@ __Russian State University for the Humanities__
 * Information Security
 
 ## Experience
-I have some experience in HTML and CSS layout, so there are no project works.
+I started taking the RS School course - **stage#0** in the summer, but I couldn't finish it due to time constraints. However, I have the first projects from this course. 
+1. [Resume](https://ilyqwelli.github.io/rsschool-cv/). 
+2. Museum website layout [project](https://rolling-scopes-school.github.io/ilyqwelli-JSFEPRESCHOOL2025Q2/museum/).
 
 ## Languages
 * Russian - native speaker.
