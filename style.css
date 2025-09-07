@@ -104,6 +104,11 @@ main .photo {
 
     border-radius: 100%;
 }
+
+.project-list :hover {
+    color: var(--accent-blue);
+}
+
 pre {
     padding: 10px;
 
